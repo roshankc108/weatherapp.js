@@ -1,21 +1,79 @@
 body {
-  background-color: hsla(0, 0%, 0%, 0.75);
+  background-color: hsla(0, 0%, 45%, 0.47);
   font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   margin: 0;
   padding: 0;
 }
-h1 {
-  margin: 0;
-  font-size: 6.5rem;
-  color: hsla(33, 78%, 91%, 0.75);
+.stylish{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.caption {
+  margin-block: 10px;
+  font-size: 3rem;
+  font-weight: bold;
+  color: hsla(0, 0%, 0%, 0.75);
+}
+.searchBox {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 300px;
+  font-size: 2rem;
+}
+button {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 2rem;
+  cursor: pointer;
+  border: none;
+  color: hsla(0, 0%, 0%, 0.75);
+  background-color: rgba(0, 240, 236, 0.691);
 }
 .bar {
-  margin-block: 10px;
+  margin-block-start: 10px;
   width: 100%;
   height: 4px;
-  background-color: hsla(33, 78%, 91%, 0.75);
+  background-color: hsla(0, 0%, 0%, 0.75);
+}
+button:hover {
+  background-color: rgba(2, 208, 205, 0.522);
+}
+.card {
+  min-width: 50%;
+  height: 50%;
+  background: linear-gradient(
+    180deg,
+    hsla(210, 100%, 50%, 0.743),
+    hsla(30, 3%, 24%, 0.756)
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+p {
+  font-size: 1.5rem;
+}
+.cityInfo,
+.tempInfo {
+  font-size: 3rem;
+  font-weight: bold;
+  color: hsla(0, 0%, 0%, 0.75);
 }
 
+.humidityInfo {
+  color: hsla(0, 0%, 0%, 0.75);
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.desInfo {
+  font-size: 2rem;
+  font-weight: bold;
+  font-style: italic;
+}
+.weatherEmoji {
+  margin: 0;
+  font-size: 7rem;
+}

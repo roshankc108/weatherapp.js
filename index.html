@@ -8,10 +8,26 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Nepali Mausam</h1>
+    <nav class="stylish">
+      <div class="caption">Nepali Mausam</div>
+      <form class="weatherForm">
+        <input
+          type="text"
+          class="searchBox"
+          placeholder="Enter the city name"
+        />
+        <button type="submit">Weather Info</button>
+      </form>
+    </nav>
     <div class="bar"></div>
-
-
+    <div class="card">
+      <h1 class="cityInfo">Butwal</h1>
+      <p class="tempInfo">38°C</p>
+      <p class="humidityInfo">Humidity: 88%</p>
+      <p class="desInfo">Rainy</p>
+      <p class="weatherEmoji">🌧️</p>
+      <p class="error">Enter a proper City Name</p>
+    </div>
   </body>
   <script src="script.js"></script>
 </html>
