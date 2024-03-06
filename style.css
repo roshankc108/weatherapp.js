@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
 }
-.stylish{
+.stylish {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -76,4 +76,9 @@ p {
 .weatherEmoji {
   margin: 0;
   font-size: 7rem;
+}
+.error {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: hsla(0, 0%, 0%, 0.75);
 }
