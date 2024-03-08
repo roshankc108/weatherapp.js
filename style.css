@@ -42,8 +42,11 @@ button:hover {
   background-color: rgba(2, 208, 205, 0.522);
 }
 .card {
-  min-width: 50%;
-  height: 50%;
+  /* min-width: 50%; */
+  /* height: 50%; */
+  margin-block: 10px;
+  margin-inline: 50px;
+  border-radius: 10px;
   background: linear-gradient(
     180deg,
     hsla(210, 100%, 50%, 0.743),
