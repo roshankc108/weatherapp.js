@@ -59,19 +59,19 @@ button:hover {
 p {
   font-size: 1.5rem;
 }
-.cityInfo,
-.tempInfo {
+.cityDisplay,
+.tempDisplay {
   font-size: 3rem;
   font-weight: bold;
   color: hsla(0, 0%, 0%, 0.75);
 }
 
-.humidityInfo {
+.humidityDisplay {
   color: hsla(0, 0%, 0%, 0.75);
   font-weight: bold;
   margin-bottom: 20px;
 }
-.desInfo {
+.descDisplay {
   font-size: 2rem;
   font-weight: bold;
   font-style: italic;
